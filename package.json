@@ -1,0 +1,9 @@
+{
+    "name": "5x5"
+  , "version": "0.0.1"
+	, "private": true
+  , "dependencies": {
+      "connect": ">= 1.6.0"
+	,   "socket.io": ">= 0.7.7"
+  }
+}
