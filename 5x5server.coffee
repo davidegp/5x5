@@ -20,6 +20,9 @@ console.log "Browse to http://localhost:#{port} to play"
 # bind socket to HTTP server
 io = require 'socket.io'
 socket = io.listen app
+# Heroku doesn't support Websockets so use long polling instead
+socket.configure () ->
+	socket.set "transports", ["xhr-polling", "flashsocket", "json-polling"]
 
 socket.sockets.on 'connection', (client) ->
 	assignToGame client
