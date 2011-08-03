@@ -46,6 +46,7 @@ removeFromGame = (client) ->
 	clearTimeout game.timer
 	clearInterval game.interval
 	for player in game.players
+		console.log "*** OPPONENT QUIT *** sending message to #{player.id}" if player.id
 		idClientMap[player.id].send "opponentQuit: blank" if player.id 	
 
 	# two players in games where opponent quit can be connected automatically
