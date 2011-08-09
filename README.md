@@ -3,7 +3,7 @@ Word game written in Node.js using socket.io. The game is from Trevor Burnham's 
 Contains minor fixes and some new features:
 
   * used word display along with definitions
-	* enforced time limit for player turns
+  * enforced time limit for player turns
   * support for more than 1 game at a time
   * a simple matchmaking feature to automatically connect waiting players
   * minor UI tweaks for usability etc.
