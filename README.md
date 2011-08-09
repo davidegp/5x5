@@ -1,10 +1,10 @@
-Word game written in Node.js using socket.io. The game is from Trevor Burnham's excellent Coffeescript book, [Coffeescript: Accelerated Javascript Development] (http://example.com/ "Coffeescript: Accelerated Javascript Development").
+Word game written in Node.js using socket.io. The game is from Trevor Burnham's excellent Coffeescript book, [Coffeescript: Accelerated Javascript Development] (http://http://pragprog.com/book/tbcoffee/coffeescript/ "Coffeescript: Accelerated Javascript Development").
 
 Contains minor fixes and some new features:
-*used word display along with definitions
-*support for more than 1 game at a time
-*a simple matchmaking feature to automatically connect waiting players
-*minor UI tweaks for usability etc. 
+*	used word display along with definitions
+*	support for more than 1 game at a time
+*	a simple matchmaking feature to automatically connect waiting players
+*	minor UI tweaks for usability etc. 
 
 ### To Run
 coffee 5x5server.coffee
